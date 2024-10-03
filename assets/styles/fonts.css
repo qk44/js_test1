@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Linear';
+    src: url("../fonts/Inter-VariableFont_opsz,wght.ttf") ;
+    font-weight: 400;
+
+}
+
+.txt-green-16 {
+    font-size: 16px;
+    color: #1FBC9F;
+}
+.txt-green-32 {
+    font-size: 32px;
+    color: #1FBC9F;
+}
+
+.txt-grey-32 {
+    font-size: 32px;
+    color: #2C302E;
+}
+.txt-grey-14 {
+    font-size: 14px;
+    color: #2C302E;
+}
+
+.txt-main-14 {
+    font-size: 14px;
+    color: #F8FFFC;
+}
+.txt-main-16 {
+    font-size: 16px;
+    color: #F8FFFC;
+}

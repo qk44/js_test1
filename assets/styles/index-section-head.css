@@ -1,0 +1,27 @@
+.section-head .container-2 {
+    display: flex;
+    padding-top: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-head .container-2 .logo {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+.section-head .container-2 .button-auth {
+    width: 180px;
+    height: 38px;
+    color: #F8FFFC;
+    background: #1FBC9F;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.section-head .container-2 .button-auth:hover {
+    transition: .5s;
+    background: rgba(31, 188, 159, 0.25);
+    color: #1FBC9F;
+    box-shadow: 0px 0px 7px rgba(31, 188, 159, 1);
+}

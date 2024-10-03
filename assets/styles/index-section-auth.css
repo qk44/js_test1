@@ -1,0 +1,89 @@
+
+
+.section-head {
+    background: #2C302E;
+    height: 80px;
+
+}
+
+.section-auth .container .box-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 609px;
+    height: 405px;
+    margin: 200px auto;
+    border-radius: 10px;
+    background: #F8FFFC;
+    box-shadow: 0px 0px 10px rgba(44, 48, 46, 0.25);
+
+}
+
+.section-auth .container .box-auth .mini-box-auth {
+    display: flex;
+    flex-direction: column;
+    width: 427px;
+
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.section-auth .container .box-auth .mini-box-auth .logo-padding{
+    padding-bottom: 4px;
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-logo .logo{
+    display: flex;
+    gap: 9px;
+    align-items: end;
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top:  24px;
+}
+.section-auth .container .box-auth .mini-box-auth .sec-auth input {
+    width: 427px;
+    height: 43px;
+    border-radius: 6px;
+    background: #2C302E;
+    padding: 13px;
+    color: #F8FFFC;
+}
+.section-auth .container .box-auth .mini-box-auth .sec-auth ::placeholder{
+    color: #F8FFFC;
+    font-size: 14px;
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-password {
+    color: #2C302E;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-next {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.section-auth .container .box-auth .mini-box-auth .sec-next .button-auth {
+    width: 90px;
+    height: 38px;
+    color: #F8FFFC;
+    background: #1FBC9F;
+    border-radius: 5px;
+    transition: .3s;
+
+}
+.section-auth .container .box-auth .mini-box-auth .sec-next .button-auth:hover {
+    transition: .5s;
+    background: rgba(31, 188, 159, 0.25);
+    color: #1FBC9F;
+    box-shadow: 0px 0px 7px rgba(31, 188, 159, 1);
+}
